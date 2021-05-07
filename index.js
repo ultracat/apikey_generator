@@ -6,7 +6,7 @@ const secret = "MY SCRET KEY";
 
 const generatedKey = jwt.sign(
 	{
-		organization: "OWIN"
+		organization: "TEST COMPANY"
 	},
 	secret,
 	{
